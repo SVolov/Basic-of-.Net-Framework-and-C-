@@ -22,7 +22,7 @@ class Program
         Console.WriteLine($"Conversion result: {convertedNumber}");
     }
 
-    static string ConvertToBase(int number, byte baseNumber)
+    private static string ConvertToBase(int number, byte baseNumber)
     {
         const string digits = "0123456789ABCDEFGHIJ";
 
